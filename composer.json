@@ -1,5 +1,5 @@
 {
-    "name": "danilovonline/sLog",
+    "name": "Danilovonline/sLog",
     "description": "Simple logging",
     "keywords": ["log","logging"],
     "version" : "1.0.0",
@@ -10,12 +10,6 @@
             "homepage": "http://danilovonline.ru",
             "role": "Developer"
         }
-    ],
-    "repositories":[
-      {
-        "type":"git",
-        "url":"http://github.com/Danilovonline/sLog"
-      }
     ],
     "require": {
         "php": ">=5.3.0"
