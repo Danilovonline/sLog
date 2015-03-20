@@ -1,5 +1,5 @@
 {
-  "name": "Danilovonline/sLog",
+  "name": "sLog",
   "description": "Simple logging",
   "keywords": [
     "log",
@@ -16,5 +16,10 @@
   ],
   "require": {
     "php": ">=5.3.0"
+  },
+  "autoload"    : {
+    "classmap": [
+      "/"
+    ]
   }
 }
