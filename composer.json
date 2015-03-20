@@ -1,0 +1,22 @@
+{
+    "name": "danilovonline/sLog",
+    "description": "Simple logging",
+    "keywords": ["log","logging"],
+    "authors": [
+        {
+            "name": "Danilov Anatoly",
+            "email": "danilovonline@gmail.com",
+            "homepage": "http://danilovonline.ru",
+            "role": "Developer"
+        }
+    ],
+    "repositories":[
+      {
+        "type":"git",
+        "url":"http://github.com/Danilovonline/sLog"
+      }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
