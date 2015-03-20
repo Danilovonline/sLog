@@ -2,6 +2,7 @@
     "name": "danilovonline/sLog",
     "description": "Simple logging",
     "keywords": ["log","logging"],
+    "version" : "1.0.0",
     "authors": [
         {
             "name": "Danilov Anatoly",
