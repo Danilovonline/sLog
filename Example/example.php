@@ -1,10 +1,5 @@
 <?php
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'sLog.php';
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'Level.php';
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'LoggerAbstract.php';
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'Loggers/File.php';
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'Loggers/Mail.php';
-require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'Loggers/Syslog.php';
+require_once dirname(dirname(dirname(dirname(__FILE__)))) . DIRECTORY_SEPARATOR . 'autoload.php';
 
 use \sLog\sLog;
 
@@ -24,7 +19,7 @@ sLog::addLogger(
 
 sLog::addLogger(
     new \sLog\Loggers\Mail (
-        array('email' => 'danilov@izhnet.ru'),
+        array('email' => 'admin@yourdomen.com'),
         \sLog\Level::WARNING
     )
 );
