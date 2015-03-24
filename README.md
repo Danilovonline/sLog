@@ -35,6 +35,8 @@
     "require": {
         "appserver-io/logger": "dev-master"
     },
+    "minimum-stability": "dev"
+
 }
 ```
 
