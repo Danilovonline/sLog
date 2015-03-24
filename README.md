@@ -44,3 +44,6 @@
 
 ## Пример использования
 [example.php](Example/example.php)
+
+## Лицензия
+sLog выпущен под [MIT лицензией](https://github.com/robbyrussell/oh-my-zsh/blob/master/MIT-LICENSE.txt).
