@@ -1,6 +1,7 @@
 {
   "name": "danilovonline/slog",
   "description": "Simple logging",
+  "version": "1.0.0",
   "keywords": [
     "log",
     "logging"
