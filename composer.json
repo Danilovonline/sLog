@@ -2,6 +2,7 @@
   "name": "danilovonline/slog",
   "description": "Simple logging",
   "version": "1.0.0",
+  "license": "MIT",
   "keywords": [
     "log",
     "logging"
